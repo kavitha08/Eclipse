@@ -27,6 +27,7 @@ public class POMtestnf {
 		
 		Sendemail sndeml=PageFactory.initElements(driver, Sendemail.class);
 		sndeml.ComposeEmail("Kavithaancha@gmail.com", "say hello", "Hi how are you");
+		System.out.println("Second commit");
 	}
 
 
